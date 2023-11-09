@@ -1,8 +1,6 @@
 # MIT-OCW-Automator
 Hackathon submission
 
-# Free Degree Automator
-
 This repository contains a Python notebook designed to automate the process of responding to assignments from MIT OpenCourseWare (OCW). It leverages OpenAI's GPT-4 for advanced natural language processing to parse, interpret, and solve assignment problems, including referencing relevant textbook material. It makes use of various custom classes, such as an ObjectiveReasoner class in order to provide the model an interna monologue and the ability to plan and gauge its completion of an objective.
 
 ## Features
