@@ -21,8 +21,8 @@ Run the cells sequentially to perform the operations described in the comments.
 ## How It Works
 The notebook is structured to follow the workflow of receiving an assignment to submitting a completed response:
 
-Assignment Retrieval: It starts by downloading the assignment using playwright.
-Problem Extraction: Parses the assignment PDF to identify problems using PyPDF2.
-Solving Problems: Interacts with GPT-4 using the ObjectiveReasoner to solve each problem and reference textbooks when necessary.
-Compiling Solutions: Solutions are compiled and checked for completion.
-PDF Creation: Solutions are formatted and exported to a PDF document using reportlab.
+- Assignment Retrieval: It starts by downloading the assignment using playwright.
+- Problem Extraction: Parses the assignment PDF to identify problems using PyPDF2.
+- Solving Problems: Interacts with GPT-4 using the ObjectiveReasoner to solve each problem and reference textbooks when necessary.
+- Compiling Solutions: Solutions are compiled and checked for completion.
+- PDF Creation: Solutions are formatted and exported to a PDF document using reportlab.
